@@ -1,10 +1,13 @@
 class User {
   constructor() {
+    this.username;
     this.message = 'Hello World';
     console.log(this.message);
   }
 
-  getUserName() {}
+  getUserName() {
+    return this.username;
+  }
 
   getUserStatus() {}
 }
@@ -34,3 +37,12 @@ module.exports = User;
 
 
 // asdfasdf
+
+// we run 'npm publish' to publish to npm repository
+// if after changing the code we want to publish the new code, we will get an error
+// this is because in the package.json we need to change and update a new version
+
+// now we can install our package using the following command
+// npm install @cabiamdos/my-package@1.0.1
+
+// to import: import myPackage from '@cabiamdos/my-package@1.0.1'
