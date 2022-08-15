@@ -46,3 +46,6 @@ module.exports = User;
 // npm install @cabiamdos/my-package@1.0.1
 
 // to import: import myPackage from '@cabiamdos/my-package@1.0.1'
+
+// after configuring page section in the settings of the project
+// and there will be the link https://cabiamdos.github.io/my-package-repo/
